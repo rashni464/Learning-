@@ -1,5 +1,14 @@
 linux basic commands
 -----------------
-1) ls 
-2) ls -la
-3) rm -rf <any folder> // deletes all the subfolders and sub files
+1) ls -la: used to execute all the hidden files and used files or folders
+2) rm -rf <any folder> // deletes all the subfolders and sub files
+3) cd - change directory: which is used to change from one folder to another. by pressing cd you will come to home place.
+4) ls - list: it is used to show what all folders or files present in that particular directory.
+5) pwd - which is used to find where we are.
+6) cd .. : which is used to go back to original place or one step back place
+7) cd/ : which is used to go to root directory.
+8) ls -l : this is used to find the all the list along with directory and files and shortcut is ll
+9) clear: it is used to clear every thing.
+10) touch: to create a new file go to that directory and use touch with file name
+11) mkdir: to create a new folder we need to use mkdir test1
+12) rmdir: to delete directort rmdir test1
