@@ -1,0 +1,4 @@
+linux basic commands
+-----------------
+1) ls 
+2) ls -la
