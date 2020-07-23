@@ -2,3 +2,4 @@ linux basic commands
 -----------------
 1) ls 
 2) ls -la
+3) rm -rf <any folder> // deletes all the subfolders and sub files
