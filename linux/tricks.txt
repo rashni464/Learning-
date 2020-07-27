@@ -11,4 +11,20 @@ linux basic commands
 9) clear: it is used to clear every thing.
 10) touch: to create a new file go to that directory and use touch with file name
 11) mkdir: to create a new folder we need to use mkdir test1
-12) rmdir: to delete directort rmdir test1
+12) rmdir: to delete directort rmdir test1.
+13) cp : is used to copy the files ex : cp test test1. to copy in home cp ~/test test1 which will copy in home folder
+14) mv: it is used to rename the file or folder : mv test test1 and also used to move from one folder to another.
+15) :wq : which is used to save the file after editing 
+16) :q!  : this is used to save the file without new changes.
+17) grep "search name" search path : by using grep we can find required line from a large data. Ex: grep "how" rashni
+18) grep -i "how" rashni : i is used to find the required required item without case sensitive.
+19) grep -n "how" rashni : n is used to find the required item along with the line numbers.
+20) grep -in "how" rashni : "in" is used to find the required items along with line number and without case sensitive.
+21) grep -n "how" * : * is used to find the required item from all the files without spectfing file names in the commands.
+22) vim filename: it is used to open the file and we can edit something by presseing i initally after editing to save the file we need to press ESC :wq 
+
+
+
+
+
+
