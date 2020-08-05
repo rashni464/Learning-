@@ -1,0 +1,38 @@
+Arrays: are used to store multiple datatype values and uses square braces.
+example: var x = [1,2,3];
+         for(var i=0; i<3; i++){
+             console.log(x(i));
+         }
+
+         output= 1,2,3  
+-----------------------------------------------------------------------
+
+objects: Used to store multiple datatype values and collection of properties (containes key and value) and uses curly braces.
+example: var x = {
+    name= "rashni",
+    age= 25,
+    sex= "female"
+}
+console.log(`my name is ${x.name} iam ${x.sex});
+
+output= my name is rashni iam female
+----------------------------------------------------------------------
+
+
+String Interpolation:
+ This is used to add two strings and we can do it in 2 ways
+ 1: example
+
+ var x= "rashni";
+ var y= "pinky";
+ console.log(x + "," + y);
+
+ output= rashni,pinky
+
+ 2: example
+
+ var x = "rashni";
+ var y = "pinky";
+ console.log(`${x},${y});
+
+ output= rashni,pinky

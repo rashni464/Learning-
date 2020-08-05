@@ -21,7 +21,15 @@ linux basic commands
 19) grep -n "how" rashni : n is used to find the required item along with the line numbers.
 20) grep -in "how" rashni : "in" is used to find the required items along with line number and without case sensitive.
 21) grep -n "how" * : * is used to find the required item from all the files without spectfing file names in the commands.
-22) vim filename: it is used to open the file and we can edit something by presseing i initally after editing to save the file we need to press ESC :wq 
+22) vim filename: it is used to open the file and we can edit something by presseing i initally after editing to save the file we need to press ESC :wq
+PERMISSIONS
+23) for every file it will have write read and execute operations -rw-rw-r-- in the beside line if the line start with - then it is a file after that we have 9letters the first 3 is w-write,r-read,x-execute so when we add a file we wont have permissions added so we need to add them manually. to add we need to write 1) chmod u+x filename ...this code is for staring 3 letters which is used for users. 2) chmod g+x filename ...this code is for second 3 letters which is used for group. 3) chmod o+x filename ...this code is for final 3 letters which is used for other people. 
+24) chmod u-x filename : this code is used to remove the execution operation.
+25)chmod 777 filename: this operation is used to add read write execute operations without using u,o,g commands.
+26) 4- read, 2-write, 1-execute, 0-no permission.
+shell: it will take the commends and convert and transulate to kernel.
+
+
 
 
 
