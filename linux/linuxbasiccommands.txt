@@ -1,7 +1,7 @@
 linux basic commands
 -----------------
 1) ls -la: used to execute all the hidden files and used files or folders
-2) rm -rf <any folder> // deletes all the subfolders and sub files
+2) rm -rf <any folder> // deletes all the subfolders and sub files ( rm -rf : remove recussive force)
 3) cd - change directory: which is used to change from one folder to another. by pressing cd you will come to home place.
 4) ls - list: it is used to show what all folders or files present in that particular directory.
 5) pwd - which is used to find where we are.
