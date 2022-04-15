@@ -1,6 +1,96 @@
-1) what is a data attribute
-a: ex....
+1) programming language?
+ a) it is a language which can be understand to the computer. example: java,javascript,c,c++.
+2) c,c++,java are back end programming language(back end programming= Backend developers build code that allows a database and an application to communicate with one another. )
+3) javascript is the back end and front end programming language.(front end programming= what the user sees in a browser;)
+4) what is library?
+ a) group of functions and classes are called library
+5) what is framework?
+ a) group of library are called framework.
+6) Frameworks for js?
+ a) angular, react, vuejs
+7) what is vscode?
+ a) Visual Studio Code is a streamlined code editor with support for development operations like debugging, task running, and version control. it is used to formate the written code and used as editor.VSCODE is a IDE(integrated development environment ). IDE performs write code, compile code, debug code, and monitor resources.
+8) examples of IDE?
+ a) NetBeans, Eclipse, IntelliJ, and Visual Studio.
+9) eclipse(jave works in it), Intellij (java works in it), visual studio code(javascript).
+10)what is spring tool suite?
+ a) it is based on eclipse IDE. it works for java.STS is free, open-source
+11) example of java framework?
+ a) spring, struts
+12) what is compling code?
+ a)Compiling a Java program means taking the programmer-readable text in your program file (also called source code) and converting it to bytecodes.
+13) what is prod?
+ a)PROD is the stage where app has been publicly released. Much larger group of user can use and test on the new features.
+14)What is object-oriented application?
+ a)Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior.
+  ex:Java, C++, C#, Python and Javascript.
+15) what is web based enterprise?
+ a)Enterprise web applications are web-based applications that allow you to handle your company's internal and external needs and operations. A web application gears you towards a digital transformation(like social media ) and helps meet the modern needs of business in this digital world.
+16)what is Waterfall methodology?
+ a)the Waterfall methodology—also known as the Waterfall model—is a sequential development process that flows like a waterfall through all phases of a project (requirement , design, implementation, verification or testing, deployment or maintence)
+17)what is Agile methodoligy?
+ a)The Agile methodology is a way to manage a project by breaking it up into several phases.
+18)Agile methodoligy frameworks?
+ a)Scrum, Kanban, Extreme Programming (XP), and Adaptive Project Framework (APF).
+19)what is Scrum?
+ a)A PM(project management) methodology in which a small team is led by a Scrum master, whose main job is to clear away all obstacles to completing work. Work is done in short cycles called sprints, but the team meets daily to discuss current tasks and roadblocks.
+  a scrum consists of prduct owner,screum master,dev team,business owner.
+  product owner: his role is to transluate the customers need to the team.and the dev team works based on product onwer.
+  product backlog: new requirment given by stakeholders are kept in product backlog and prepare the sprint as per priority bases.
+  sprint retrospective: after completing the sprint checking what went well and what went wrong.
 
-2) what is semantic elements
-a: ex ......
-
+20)what is Adaptive Project Framework (APF)?
+ a)A project management methodology that grew from the idea that most IT projects can’t be managed using traditional PM methods. Work is done in stages and evaluated after each one.
+21)what is Extreme Project Management (XPM)?
+ a)A PM methodology where the project plan, budget, and final deliverable can be changed to fit evolving needs, no matter how far along the project is.
+ xp is based on specific planning approach, and continues testing.
+ xp practises are: simple design, pair programming, constant testing , ongoing integration,constant testing, refraction.
+22)What is JavaScript and why it is used?
+ a)Javascript is used by programmers across the world to create dynamic and interactive web content like applications and browsers. JavaScript is so popular that it's the most used programming language in the world, used as a client-side programming language by 97.0% of all websites.
+23)what is XML?
+ a)XML stands for eXtensible Markup Language.XML is often used for distributing data over the Internet.
+24)what is AJAX?
+ a)Asynchronous JavaScript And XML.
+ AJAX just uses a combination of:
+A browser built-in XMLHttpRequest object (to request data from a web server)
+JavaScript and HTML DOM (to display or use the data).
+how ajax works:
+1. An event occurs in a web page (the page is loaded, a button is clicked)
+2. An XMLHttpRequest object is created by JavaScript
+3. The XMLHttpRequest object sends a request to a web server
+4. The server processes the request
+5. The server sends a response back to the web page
+6. The response is read by JavaScript
+7. Proper action (like page update) is performed by JavaScript
+25)what is JSON?
+ a)JSON stands for JavaScript Object Notation
+ JSON is a lightweight format for storing and transporting data
+ JSON is often used when data is sent from a server to a web page(first when a action is done on the webpage that xmlhttp request is send to server from then  server send information to database so by using Json the database send data to the server and by using Json server send data to webpage and then js will convert JSON to js to see the response. )
+ JSON is "self-describing" and easy to understand
+26)what is bootstrap?
+ a)Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
+   Bootstrap 5 is the newest version of Bootstrap.
+27)what is github?
+ a)GitHub is a code hosting platform for collaboration and version control(Version control, also known as source control, is the practice of tracking and managing changes to software code. ).
+  GitHub lets you (and others) work together on projects.
+  GitHub essentials are:
+      Repositories
+      Branches
+      Commits
+      Pull Requests
+      Git (the version control software GitHub is built on)
+28)what is jquery?
+ a)jQuery is a JavaScript library(group of function and classes).jQuery greatly simplifies JavaScript programming.
+29)What is AngularJS and why it is used?
+ a)AngularJS is a structural framework for dynamic web apps. With AngularJS, designers can use HTML as the template language and it allows for the extension of HTML's syntax to convey the application's components effortlessly. Angular makes much of the code you would otherwise have to write completely redundant.
+30)What is react?
+ a)React is a JavaScript library created by Facebook
+  React is a User Interface (UI) library
+  React is a tool for building UI components(UI components:textview,Button,ImageButton,ToggleButton,RadioButton,RadioGroup,CheckBox.)
+31)difference between library and frameworks?
+    library                                              framework
+ a)library has few rules.                              framework has more rules.
+   when we call the code it is library                 in this case framework calls the code.
+32) what is API?
+ a)API is  Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. for example: if you want to book airindia flight ticket no need to book in airindia website we ca also book in makemytrip so when we book the airindia flight ticket in the makemytrip app we get the flight ticket. in this case the makemytrip uses Airindia API by using that API both the websites can communicate.
+ 
