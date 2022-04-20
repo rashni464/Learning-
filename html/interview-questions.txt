@@ -7,19 +7,20 @@
 5) what is framework?
  a) group of library are called framework.
 6) Frameworks for js?
- a) angular, react, vuejs
+ a) angular(1st version 1-pure js, at persent using angular 10 which works on type script(type script = nothing but js + types like float ,boolean ,string etc)), react(is a library which is used to create single page application(single page application=it contains only 1 html page and content will be replaced based on route)it works on typescript ), vuejs( is a library which is used to create single page application(single page application=it contains only 1 html page and contain will be replaced based on route)it works on typescript )
 7) what is vscode?
  a) Visual Studio Code is a streamlined code editor with support for development operations like debugging, task running, and version control. it is used to formate the written code and used as editor.VSCODE is a IDE(integrated development environment ). IDE performs write code, compile code, debug code, and monitor resources.
 8) examples of IDE?
  a) NetBeans, Eclipse, IntelliJ, and Visual Studio.
 9) eclipse(jave works in it), Intellij (java works in it), visual studio code(javascript).
 10)what is spring tool suite?
- a) it is based on eclipse IDE. it works for java.STS is free, open-source
+ a) it is the extension of eclipse which is used to write java code. it is based on eclipse IDE. it works for java.STS is free, open-source
 11) example of java framework?
  a) spring, struts
-12) what is compling code?
+12) what is compiling code?
  a)Compiling a Java program means taking the programmer-readable text in your program file (also called source code) and converting it to bytecodes.
-13) what is prod?
+13) what is prod? 
+   we take a story write a code and push that in DEV and tester will test the code in dev and if he feels ok then the story will be closed.from dev we create a release branch (it is nothing but repica of master branch) and send it to SIT(system integration testing) where we do all type of testings from then it is sent to QA with help of jenkis we move release branch from SIT to QA and testers will test more by replicating real production issues and at end pused to production by using jenkins. 
  a)PROD is the stage where app has been publicly released. Much larger group of user can use and test on the new features.
 14)What is object-oriented application?
  a)Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior.
@@ -38,7 +39,7 @@
   product owner: his role is to transluate the customers need to the team.and the dev team works based on product onwer.
   product backlog: new requirment given by stakeholders are kept in product backlog and prepare the sprint as per priority bases.
   sprint retrospective: after completing the sprint checking what went well and what went wrong.
-
+20) kanban: it is used to production support(after deployed in dev problems occurs resolving problebs are productin support) mostly. in  this we get multiple stories we need to work according to that.
 20)what is Adaptive Project Framework (APF)?
  a)A project management methodology that grew from the idea that most IT projects can’t be managed using traditional PM methods. Work is done in stages and evaluated after each one.
 21)what is Extreme Project Management (XPM)?
@@ -48,7 +49,7 @@
 22)What is JavaScript and why it is used?
  a)Javascript is used by programmers across the world to create dynamic and interactive web content like applications and browsers. JavaScript is so popular that it's the most used programming language in the world, used as a client-side programming language by 97.0% of all websites.
 23)what is XML?
- a)XML stands for eXtensible Markup Language.XML is often used for distributing data over the Internet.
+ a)XML stands for eXtensible Markup Language. it is a data format. when we want to give our data while booking a ticket as per ticket app data format we provide the informtion so that format is called XML which distribute data between two entites.XML is often used for distributing data over the Internet.
 24)what is AJAX?
  a)Asynchronous JavaScript And XML.
  AJAX just uses a combination of:
@@ -67,6 +68,7 @@ how ajax works:
  JSON is a lightweight format for storing and transporting data
  JSON is often used when data is sent from a server to a web page(first when a action is done on the webpage that xmlhttp request is send to server from then  server send information to database so by using Json the database send data to the server and by using Json server send data to webpage and then js will convert JSON to js to see the response. )
  JSON is "self-describing" and easy to understand
+ example: when we book a airindia fligt from go my trip app, that go my trip is link with many other flighs all will follow different format so resolve this problem we use JSON format so by providing data in jSON format that particular flight covert that frmat into JS.
 26)what is bootstrap?
  a)Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
    Bootstrap 5 is the newest version of Bootstrap.
@@ -82,7 +84,7 @@ how ajax works:
 28)what is jquery?
  a)jQuery is a JavaScript library(group of function and classes).jQuery greatly simplifies JavaScript programming.
 29)What is AngularJS and why it is used?
- a)AngularJS is a structural framework for dynamic web apps. With AngularJS, designers can use HTML as the template language and it allows for the extension of HTML's syntax to convey the application's components effortlessly. Angular makes much of the code you would otherwise have to write completely redundant.
+ a)AngularJS is a structural framework for dynamic web apps(ui based). With AngularJS, designers can use HTML as the template language and it allows for the extension of HTML's syntax to convey the application's components effortlessly. Angular makes much of the code you would otherwise have to write completely redundant.
 30)What is react?
  a)React is a JavaScript library created by Facebook
   React is a User Interface (UI) library
@@ -93,4 +95,38 @@ how ajax works:
    when we call the code it is library                 in this case framework calls the code.
 32) what is API?
  a)API is  Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. for example: if you want to book airindia flight ticket no need to book in airindia website we ca also book in makemytrip so when we book the airindia flight ticket in the makemytrip app we get the flight ticket. in this case the makemytrip uses Airindia API by using that API both the websites can communicate.
- 
+33) what are js libraries?
+ a)jQuery library.
+ React library.
+ D3.js library
+
+34)thymeleaf?
+ a)thymleaf is a UI user interface (in the real time when we open website and wants to click login button that button is created by thymeleaf. in the olden days we used to use HTML but now it will difficult to write HTML for UL so simply we use thymeleaf.)
+35) springboot?
+ a)inorder to use spring framework we need to do lot of configarations(setups or adding dependencies)so as a developer it takes more time to setup configurations so to reduce the problem spirng boot came into the picture.sping boot will automaticlly set all the configurations to use spring framework.
+36)PHP?
+ A)PHP= "Hypertext Preprocessor"
+ PHP is a widely-used, open source scripting language
+ PHP scripts are executed on the server
+ PHP is free to download and use
+ PHP files have extension ".php"
+What Can PHP Do?
+ PHP can generate dynamic page content
+ PHP can create, open, read, write, delete, and close files on the server
+ PHP can collect form data
+ PHP can send and receive cookies
+ PHP can add, delete, modify data in your database
+ PHP can be used to control user-access
+ PHP can encrypt data
+
+37)What is MySQL?
+ the data in a MySQL database are stored in tables. A table is a collection of related data, and it consists of columns and rows.
+ MySQL is the most popular database system used with PHP.
+ MySQL is a database system used on the web
+ MySQL is a database system that runs on a server
+ MySQL is ideal for both small and large applications
+ MySQL is very fast, reliable, and easy to use
+ MySQL uses standard SQL
+ MySQL compiles on a number of platforms
+ MySQL is free to download and use
+ MySQL is developed, distributed, and supported by Oracle Corporation
