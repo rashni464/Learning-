@@ -130,3 +130,11 @@ What Can PHP Do?
  MySQL compiles on a number of platforms
  MySQL is free to download and use
  MySQL is developed, distributed, and supported by Oracle Corporation
+ 38) what is Sonar Qube?
+a) SonarQube is an open-source platform developed by SonarSource for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs.
+39) what is crucible?
+a)Atlassian Crucible is the on-premises code review solution for enterprise teams. It allows your development teams to catch major defects, improve code architecture, and discuss desired improvements, without the need for meetings.
+40) what is Redux?
+a)In React, it becomes a tedious task to track the state of the application during the debugging process. Redux makes debugging the application an easy process. Since it represents the entire state of an application at any given point in time, it is widely used for time-travel debugging.
+41)
+ 
